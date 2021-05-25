@@ -3,11 +3,14 @@
       relink: true
 
 - clean: ["~"]
+
 - link:
     ~/.zshrc:
     ~/.gitconfig:
+    ~/.hushlogin:
 # - create:
 #     - ~/downloads
 #     - ~/.vim/undo-history
+
 # - shell:
 #     - [git submodule update --init --recursive, Installing submodules]
