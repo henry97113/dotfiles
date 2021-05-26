@@ -117,6 +117,10 @@ if [ -x "$(command -v exa)" ]; then
     alias la="exa --long --all --group"
 fi
 
+# Add Locations to $PATH Variable
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
 # Create useful functions
 function mkcd() {
   mkdir -p "$@" && cd "$_";
