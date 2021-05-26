@@ -8,9 +8,8 @@
     ~/.zshrc:
     ~/.gitconfig:
     ~/.hushlogin:
-# - create:
-#     - ~/downloads
-#     - ~/.vim/undo-history
 
 # - shell:
 #     - [git submodule update --init --recursive, Installing submodules]
+- create:
+    - ~/Work
