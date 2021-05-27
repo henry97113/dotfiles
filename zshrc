@@ -115,7 +115,7 @@ alias ls="ls -lAFh"
 # exa
 if [ -x "$(command -v exa)" ]; then
     alias ls="exa"
-    alias la="exa --long --all --group"
+    alias la="exa --long --all --group --header"
 fi
 
 # Add Locations to $PATH Variable
