@@ -14,6 +14,7 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 # Syntex highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
