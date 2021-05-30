@@ -1,4 +1,5 @@
 # Taps
+tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -17,6 +18,7 @@ brew "yarn"
 brew "zsh"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
+brew "eth-p/software/bat-extras"
 brew "teamookla/speedtest/speedtest"
 
 # Casks (Applications)

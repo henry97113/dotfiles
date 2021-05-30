@@ -12,8 +12,6 @@ fi
 # Set variables
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-# Syntex highlighting for man pages using bat
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Set name of the theme to load --- if set to "random", it will
@@ -111,6 +109,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="ls -lAFh"
+alias man="batman"
 
 # exa
 if [ -x "$(command -v exa)" ]; then
