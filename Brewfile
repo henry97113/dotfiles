@@ -11,6 +11,7 @@ brew "exa"
 brew "gcc"
 brew "git"
 brew "httpie"
+brew "mas"
 brew "node"
 brew "yarn"
 brew "zsh"
@@ -38,3 +39,18 @@ cask "tutanota"
 cask "typora"
 cask "visual-studio-code"
 cask "webpquicklook"
+
+# Mac App Store
+mas "Bitwarden", id: 1352778147
+mas "Hush", id: 1544743900
+mas "LINE", id: 539883307
+mas "Magnet", id: 441258766
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
+mas "NextDNS", id: 1464122853
+mas "NordVPN IKE", id: 1116599239
+mas "Pixelmator Pro", id: 1289583905
+mas "Slack", id: 803453959
+mas "Telegram", id: 747648890
+mas "uBlacklist for Safari", id: 1547912640
