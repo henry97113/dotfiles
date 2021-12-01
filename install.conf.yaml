@@ -8,6 +8,7 @@
     ~/.zshrc:
     ~/.gitconfig:
     ~/.hushlogin:
+    ~/.hyper.js:
 
 - create:
     - ~/Work
